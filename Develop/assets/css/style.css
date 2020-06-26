@@ -96,6 +96,7 @@ header nav ul li {
 */
 
 .section {
+    
     width: 75%;
     background-color: #0072bb;
     margin: 0px 0px 20px 20px;
@@ -122,7 +123,6 @@ header nav ul li {
 
 
 
-
 .section-img img {
     display: inline-flex;
     float: left;
@@ -137,20 +137,20 @@ header nav ul li {
     max-height: 250px;
     max-width: 250px;
     margin-left: 75%;
-    flex: 1 33%;   
-    
-    
+    flex: 1 33%;         
 }
 
 
-/*
+
+
+
 .benefit-img img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/*
 
 .online-reputation-management img {
     max-height: 200px;
@@ -229,22 +229,18 @@ header nav ul li {
 
 */
 
+
+
+
+
 /*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 */
+
 
 .footer {
     padding: 30px;

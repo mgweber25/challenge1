@@ -21,4 +21,4 @@ https://github.com/mgweber25/challenge1/blob/master/screenshot1.png
 ## Contribution
 Made with ❤️ by Horiseon
 
-### ©️2019 Run Buddy, Inc
+### ©️2020 Horiseon

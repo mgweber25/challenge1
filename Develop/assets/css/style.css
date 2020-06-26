@@ -6,13 +6,14 @@
     padding: 0;
     margin: 0;
 }
-
+/*Body*/
 body {
     color: #ffffff;
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Header w/ NAV*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,197 +52,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-
-
-
-.hero {
-    height: 800px;
-    width: 100%;
-    display: block;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/*
-.content {
-    display: inline-block;
-    width: 75%;
-    background-color: #0072bb;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-}
-*/
-
-
-
-/*
-.float-left {
-    
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-/*
-.search-engine-optimization {
-   
-}
-*/
-
-.section {
-    
-    width: 75%;
-    background-color: #0072bb;
-    margin: 0px 0px 20px 20px;
-    height: 300px; 
-    
-    flex:1 75%;
-}
-
-.section h2 p {
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    vertical-align: middle;
-    
-    
-}
-
-.section h2 {
-    
-    font-size: 36px;
-    margin-bottom: 20px;
-    
-}
-
-
-
-.section-img img {
-    display: inline-flex;
-    float: left;
-    max-height: 100%;
-    max-width: 250px;
-    margin: 50px 25px 50px 50px;
-    flex: 1 33%;
-}
-
-.section-img2 img {
-    display: inline-flex;
-    max-height: 250px;
-    max-width: 250px;
-    margin-left: 75%;
-    flex: 1 33%;         
-}
-
-
-
-
-
-.benefit-img img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-*/
-/*
-.Benefit-section {
-    margin-right: 20px;
-    margin-left: 75%;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.Benefit-section h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-
-
-
-*/
-
-
-
-
-
-/*
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-
+/*Footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -252,3 +63,97 @@ header nav ul li {
 .footer h2 {
     font-size: 20px;
 }
+
+/*Hero Pic on Homepage*/
+.hero {
+    height: 800px;
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Horiseon's core competencies in different sections (Left side has 3 sections / Right side has 1 section*/
+
+.content {
+    margin-left: 20px;
+}
+
+/*3 sections listed vertically down the left 75% of the webpage*/
+
+.left-section {
+    float: left;
+    width: 75%;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    line-height: 1.2;
+    background-color: #0072bb;;
+    
+}
+
+.left-section h2 p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.left-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;   
+}
+
+
+.left-section img {
+    float: left;
+    max-height: 200px;
+    margin-right: 25px;    
+    
+}
+
+/*2nd section w/ picture on right side*/
+
+.ORM-section img {
+    float: right;
+    max-height: 200px;
+    margin: 0 0 0 25px;    
+           
+}
+
+/*Right side of webpage starting with "Lead Generation"*/
+
+.right-section {
+    float: right;
+    width: 22%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    height: 100%;
+    line-height: 1.2;
+    background-color: #2589bd;
+}
+
+.right-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-section p {
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+
+.right-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+

@@ -14,7 +14,7 @@ Refractor code to follow accessibility standards to optimize the website for sea
 https://mgweber25.github.io/challenge1/index.html
 
 ## Screenshot:
-<img src="https://github.com/mgweber25/challenge1/screenshot1.png" >
+https://github.com/mgweber25/challenge1/screenshot1.png
 
 
 ## Contribution
